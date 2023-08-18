@@ -1,6 +1,6 @@
 <p align="center">
   <img src="https://user-images.githubusercontent.com/5600341/27505816-c8bc37aa-587f-11e7-9a86-08a2d081a8b9.png" height="280px">
-  <p align="center">React renderer for creating PDF files on the browser and server<p>
+  <p align="center">Tarayıcıda ve sunucu içinde PDF dosyaları oluşturmak için kullanabileceğiniz, React renderer<p>
   <p align="center">
     <a href="https://www.npmjs.com/package/@react-pdf/renderer">
       <img src="https://img.shields.io/npm/v/@react-pdf/renderer.svg" />
@@ -18,16 +18,16 @@
   </p>
 </p>
 
-## Lost?
+## Kayboldun galiba?
 
-This package is used to _create_ PDFs using React. If you wish to _display_ existing PDFs, you may be looking for [react-pdf](https://github.com/wojtekmaj/react-pdf).
+Bu paket React JS kullanarak yeni PDF dosyası _oluşturmak_ için kullanılır. Eğer var olan PDF'i görüntülemek için bir şey arıyorsanız: [react-pdf](https://github.com/wojtekmaj/react-pdf).
 
-## How to install
+## Kurulum
 ```sh
 yarn add @react-pdf/renderer
 ```
 
-## How it works
+## Nasıl çalışır?
 
 ```jsx
 import React from 'react';
@@ -61,7 +61,7 @@ const MyDocument = () => (
 );
 ```
 
-### `Web.` Render in DOM
+### DOM'da 'Web' render.
 ```jsx
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -76,7 +76,7 @@ const App = () => (
 ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
-### `Node.` Save in a file
+### `Node.` ile bir dosyaya kayıt etme.
 ```jsx
 import React from 'react';
 import ReactPDF from '@react-pdf/renderer';
@@ -84,29 +84,29 @@ import ReactPDF from '@react-pdf/renderer';
 ReactPDF.render(<MyDocument />, `${__dirname}/example.pdf`);
 ```
 
-## Contributors
+## Katkıda bulunanlar
 
-This project exists thanks to all the people who contribute. Looking to contribute? Please check our [[contribute]](https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md) document for more details about how to setup a development environment and submitting code.
+Bu proje, katkıda bulunan tüm insanların sayesinde varlığını sürdürmektedir. Katkıda bulunmayı mı düşünüyorsunuz? Lütfen [[katkıda bulunmak]](https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md) hakkındaki dökümanımıza göz atın. Geliştirme ortamını nasıl kuracağınız ve nasıl kod göndereceğiniz hakkında daha fazla bilgi alabilirsiniz.
 
 <a href="https://github.com/diegomura/react-pdf/blob/master/.github/CONTRIBUTING.md"><img src="https://opencollective.com/react-pdf/contributors.svg?width=890" /></a>
 
-## Sponsors
+## Sponsorlar
 
 Thank you to all our sponsors! [[Become a sponsors](https://opencollective.com/react-pdf#sponsors)]
 
 <a href="https://opencollective.com/react-pdf#sponsors" target="_blank"><img src="https://opencollective.com/react-pdf/sponsors.svg?width=890"></a>
 
-## Backers
+## Destekçiler
 
-Thank you to all our backers! [[Become a backer](https://opencollective.com/react-pdf#backer)]
+Tüm destekçilerimize teşekkür ederiz! [[Destekçi ol](https://opencollective.com/react-pdf#backer)]
 
 <a href="https://opencollective.com/react-pdf#backers" target="_blank"><img src="https://opencollective.com/react-pdf/backers.svg?width=890"></a>
 
-## License
+## Lisans
 
 MIT © [Diego Muracciole](http://github.com/diegomura)
 
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf?ref=badge_large)
+[![FOSSA Durumu](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fdiegomura%2Freact-pdf?ref=badge_large)
 
 ---
 ![](https://img.shields.io/npm/dt/@react-pdf/renderer.svg?style=flat)
